@@ -1,0 +1,26 @@
+body{
+    background-image: url(background.jpg);
+}
+.btn-success:hover{
+    background-color: grey;
+}
+canvas{
+    animation-name:Example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Example{
+    from{box-shadow: 1px 1px 15px orange;}
+    to{box-shadow: 1px 1px 15px skyblue}
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    color: white;
+    width:100%;
+    line-height: 3;
+}
